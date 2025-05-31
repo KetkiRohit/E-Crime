@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+  <title>Bharuch Finance</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="main-out">
+<div class="main">
+<div class="page">
+<div class="top">
+<div class="header">
+<div class="header-top">
+<h1>Bharuch <span>Finance</span></h1>
+
+</div>
+<div class="topmenu">
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Login</a></li>
+ 
+  <li><a href="#">Register</a></li>
+  <li><a href="#">About Us</a></li>
+   <li><a href="#">Contact Us</a></li>
+  
+</ul>
+</div>
+<div class="header-img">
+<h2>Hassle Free Loan. Just a Step Away.</h2>
+</div>
+</div>
+<div class="content">
+<div class="content-left">
+<form id="form1" runat="server">
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   
+    </form>
+</div>
+<div class="content-right">
+<h2>Main Menu</h2>
+<ul>
+  <li style="border-top: medium none;"><a href="#">Home</a></li>
+  <li><a href="travel.html">Travel To Bharuch</a></li>
+  <li><a href="hotels.html">Accomodation</a></li>
+  <li><a href="tourist.html">Toursit Places</a></li>
+   <li><a href="logout">Logout</a></li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div class="bottom">
+<ul>
+<li><a href="#">Home</a></li>
+  <li><a href="#">Login</a></li>
+ 
+  <li><a href="#">Register</a></li>
+  <li><a href="#">About Us</a></li>
+   <li><a href="#">Contact Us</a></li>
+  
+</ul>
+
+<p>&copy; Copyright 2023. All Rights Reserved</a></p>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>
